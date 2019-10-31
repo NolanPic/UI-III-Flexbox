@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+p {
+	line-height: 1.4;
+	margin: 1% 0;
+}
+
 /* set page width/margin */
 .container {
 	width: 60%;
@@ -93,12 +98,12 @@ nav a {
 	color: #ccc;
 }
 
-/* button */
+/* CTA button */
 
 .button {
 	text-decoration: none;
 	border: 2px solid #404040;
-	padding: 0.7% 8%;
+	padding: 0.7% 14%;
 	font-size: 18px;
 	color: #404040;
 }
@@ -118,7 +123,7 @@ nav a {
 
 /* give padding to each column */
 .row .col {
-	padding: 1%;
+	padding: 1.5%;
 }
 
 /* remove padding from left/right of first/last col in row */
@@ -136,6 +141,10 @@ nav a {
 	border-bottom: 2px solid #404040;
 }
 
+.intro-section .row {
+	align-items: center;
+}
+
 .intro-heading {
 	text-align: center;
 }
@@ -143,7 +152,7 @@ nav a {
 .intro-heading h1 {
 	position: relative;
 	z-index: 1;
-	font-size: 100px;
+	font-size: 80px;
 	padding-bottom: 10px;
 }
 
@@ -163,7 +172,8 @@ footer {
 }
 
 .copyright {
-
+	display: flex;
+	justify-content: center;
 }
 
 /* animations */
