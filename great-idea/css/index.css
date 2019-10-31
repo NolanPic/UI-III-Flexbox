@@ -112,19 +112,22 @@ nav a {
 /* rows and columns */
 
 .row {
-
+	display: flex;
+	justify-content: space-between;
 }
 
-.col {
-
+/* give padding to each column */
+.row .col {
+	padding: 1%;
 }
 
-.row.two-col .col {
-	
+/* remove padding from left/right of first/last col in row */
+.row .col:first-child {
+	padding-left: 0;
 }
 
-.row.three-col .col {
-	
+.row .col:last-child {
+	padding-right: 0;
 }
 
 /* intro section */
@@ -146,10 +149,6 @@ nav a {
 
 .intro-section > .row {
 	padding-bottom: 10%;
-}
-
-.intro-section .intro-image {
-	
 }
 
 /* middle image */
