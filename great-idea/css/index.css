@@ -166,8 +166,6 @@ nav a {
 }
 
 .intro-heading h1 {
-	position: relative;
-	z-index: 1;
 	font-size: 80px;
 	padding-bottom: 10px;
 }
@@ -242,4 +240,37 @@ section>img {
 		font-style: italic;
 		border: 5px dashed #fff;
 	}
+}
+
+/* mobile */
+@media (min-width: 481px) and (max-width: 767px) {
+
+	/* nav */
+	nav {
+		flex-direction: column;
+	}
+
+	nav>* {
+		margin-bottom: 2%;
+	}
+
+	nav a:last-child {
+		order: -1;
+		margin-bottom: 3%;
+	}
+
+	/* columns and card items */
+	.row, .card-items {
+		flex-direction: column;
+	}
+
+	.card-items .card,
+	.services-facts .col {
+		width: 100%;
+	}
+
+	.intro-heading {
+		margin-left: 0;
+	}
+
 }
