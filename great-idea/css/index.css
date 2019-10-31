@@ -111,6 +111,7 @@ nav {
 nav a {
 	text-decoration: none;
 	color: #ccc;
+	font-weight: bold;
 }
 
 /* CTA button */
@@ -161,6 +162,7 @@ nav a {
 
 .intro-heading {
 	text-align: center;
+	margin-left: 4%;
 }
 
 .intro-heading h1 {
@@ -174,14 +176,9 @@ nav a {
 	padding-bottom: 10%;
 }
 
-/* middle image */
-.middle-img {
+/* full-width images */
+section>img {
 	width: 100%;
-}
-
-/* footer */
-footer {
-	padding-top: 4%;
 }
 
 .copyright {
@@ -206,6 +203,7 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-between;
+	margin-bottom: 1%;
 }
 
 /* each card */
@@ -232,7 +230,6 @@ footer {
 .services-facts .col {
 	width: 48%;
 }
-
 
 
 /* animations */
