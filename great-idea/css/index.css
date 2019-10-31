@@ -173,7 +173,7 @@ nav a {
 }
 
 .intro-section > .row {
-	padding-bottom: 10%;
+	padding-bottom: 8%;
 }
 
 /* full-width images */
@@ -184,6 +184,7 @@ section>img {
 .copyright {
 	display: flex;
 	justify-content: center;
+	margin-top: 8%;
 }
 
 /* helper classes */
@@ -195,7 +196,7 @@ section>img {
 	padding-top: 4%;
 }
 
-/* Services page-specific styles */
+/* *** Services page-specific styles *** */
 
 /* card list section */
 .card-items {
